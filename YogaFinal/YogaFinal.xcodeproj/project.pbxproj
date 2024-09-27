@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20CF13432BB3279600E11E07 /* YogaFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20CF13412BB3279600E11E07 /* YogaFinal.xcdatamodeld */; };
+		3F5CB5D62BCE75B8001684DB /* ProfileVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CB5D52BCE75B8001684DB /* ProfileVideoVC.swift */; };
+		720083192BC675B3002BFE89 /* RecentlyCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720083172BC675B3002BFE89 /* RecentlyCVC.swift */; };
+		7200831A2BC675B3002BFE89 /* RecentlyCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720083182BC675B3002BFE89 /* RecentlyCVC.xib */; };
+		7200831D2BC67735002BFE89 /* SavedCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200831B2BC67735002BFE89 /* SavedCVC.swift */; };
+		7200831E2BC67735002BFE89 /* SavedCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7200831C2BC67735002BFE89 /* SavedCVC.xib */; };
+		72CF18A32BC667130047D7F2 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CF18A22BC667130047D7F2 /* SignUpVC.swift */; };
+		81B3178C6745908F67C2C774 /* Pods_YogaFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44551B258A684293DFB2A3 /* Pods_YogaFinal.framework */; };
+		CE095CED2BA2D14800EFC836 /* YogaVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095CEC2BA2D14800EFC836 /* YogaVideoVC.swift */; };
+		CE44E9242B9842E800816830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44E9232B9842E800816830 /* AppDelegate.swift */; };
+		CE44E9262B9842E800816830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44E9252B9842E800816830 /* SceneDelegate.swift */; };
+		CE44E9282B9842E800816830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44E9272B9842E800816830 /* ViewController.swift */; };
+		CE44E92B2B9842E800816830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE44E9292B9842E800816830 /* Main.storyboard */; };
+		CE44E92D2B9842EA00816830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE44E92C2B9842EA00816830 /* Assets.xcassets */; };
+		CE44E9302B9842EA00816830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE44E92E2B9842EA00816830 /* LaunchScreen.storyboard */; };
+		CE44E93B2B9852FC00816830 /* CustumCVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44E9392B9852FC00816830 /* CustumCVC1.swift */; };
+		CE44E93C2B9852FC00816830 /* CustumCVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE44E93A2B9852FC00816830 /* CustumCVC1.xib */; };
+		CE6DD0072B9EF15A00E325A0 /* DietCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DD0052B9EF15A00E325A0 /* DietCVC.swift */; };
+		CEA6B2C12BA188F000D83483 /* allMeditationCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA6B2BF2BA188F000D83483 /* allMeditationCVC.xib */; };
+		CEA6B2C22BA188F000D83483 /* meditationCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA6B2C02BA188F000D83483 /* meditationCVC.xib */; };
+		CEA6B2C42BA1891900D83483 /* meditationCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6B2C32BA1891900D83483 /* meditationCVC.swift */; };
+		CEA6B2C62BA1898300D83483 /* allMeditationCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6B2C52BA1898300D83483 /* allMeditationCVC.swift */; };
+		CEB5BDC12BA2DF4300484020 /* UpNextCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BDBF2BA2DF4300484020 /* UpNextCVC.swift */; };
+		CEB5BDC22BA2DF4300484020 /* UpNextCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB5BDC02BA2DF4300484020 /* UpNextCVC.xib */; };
+		CEB5BDC42BA2EF9400484020 /* DietVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BDC32BA2EF9400484020 /* DietVideoVC.swift */; };
+		CEB5BDC62BA2F0B100484020 /* MediVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5BDC52BA2F0B100484020 /* MediVideoVC.swift */; };
+		CEE892A42BA1B31100BF9EC5 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE892A32BA1B31100BF9EC5 /* SignInVC.swift */; };
+		CEEB299A2B99A673009AC4B2 /* PopularYogaCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB29982B99A673009AC4B2 /* PopularYogaCVC.swift */; };
+		CEEB299B2B99A673009AC4B2 /* PopularYogaCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEB29992B99A673009AC4B2 /* PopularYogaCVC.xib */; };
+		CEEB299F2B99B8C1009AC4B2 /* RecommendedCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB299D2B99B8C1009AC4B2 /* RecommendedCVC.swift */; };
+		CEEB29A02B99B8C1009AC4B2 /* RecommendedCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEB299E2B99B8C1009AC4B2 /* RecommendedCVC.xib */; };
+		CEEB29A42B99C263009AC4B2 /* WeightLossCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB29A22B99C263009AC4B2 /* WeightLossCVC.swift */; };
+		CEEB29A52B99C263009AC4B2 /* WeightLossCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEB29A32B99C263009AC4B2 /* WeightLossCVC.xib */; };
+		CEEB29A82B99C6EC009AC4B2 /* Meditation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEB29A72B99C6EC009AC4B2 /* Meditation.storyboard */; };
+		CEEB29AA2B99C702009AC4B2 /* MeditationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB29A92B99C702009AC4B2 /* MeditationVC.swift */; };
+		CEEB29AD2B99C76B009AC4B2 /* Diet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEB29AC2B99C76B009AC4B2 /* Diet.storyboard */; };
+		CEEB29AF2B99C77A009AC4B2 /* DietVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB29AE2B99C77A009AC4B2 /* DietVC.swift */; };
+		CEEB29B22B99C7AF009AC4B2 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB29B12B99C7AF009AC4B2 /* ProfileVC.swift */; };
+		CEEB29B42B99C7BA009AC4B2 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEB29B32B99C7BA009AC4B2 /* Profile.storyboard */; };
+		CEECD8EB2BA030630036CB38 /* AppleCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECD8E92BA030630036CB38 /* AppleCVC.swift */; };
+		CEECD8EC2BA030630036CB38 /* AppleCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEECD8EA2BA030630036CB38 /* AppleCVC.xib */; };
+		CEECD8EE2BA03EA60036CB38 /* DietCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEECD8ED2BA03EA60036CB38 /* DietCVC.xib */; };
+		CEECD8F12BA0581C0036CB38 /* allCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECD8EF2BA0581C0036CB38 /* allCVC.swift */; };
+		CEECD8F42BA058B60036CB38 /* allCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEECD8F32BA058B60036CB38 /* allCVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20CF13422BB3279600E11E07 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		366EC11C60F37000D69DF6C2 /* Pods-YogaFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaFinal.debug.xcconfig"; path = "Target Support Files/Pods-YogaFinal/Pods-YogaFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		3F5CB5D52BCE75B8001684DB /* ProfileVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVideoVC.swift; sourceTree = "<group>"; };
+		720083172BC675B3002BFE89 /* RecentlyCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyCVC.swift; sourceTree = "<group>"; };
+		720083182BC675B3002BFE89 /* RecentlyCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentlyCVC.xib; sourceTree = "<group>"; };
+		7200831B2BC67735002BFE89 /* SavedCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCVC.swift; sourceTree = "<group>"; };
+		7200831C2BC67735002BFE89 /* SavedCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedCVC.xib; sourceTree = "<group>"; };
+		72CF18A22BC667130047D7F2 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		9F44551B258A684293DFB2A3 /* Pods_YogaFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE095CEC2BA2D14800EFC836 /* YogaVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaVideoVC.swift; sourceTree = "<group>"; };
+		CE44E9202B9842E800816830 /* YogaFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE44E9232B9842E800816830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE44E9252B9842E800816830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE44E9272B9842E800816830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE44E92A2B9842E800816830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE44E92C2B9842EA00816830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE44E92F2B9842EA00816830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE44E9312B9842EA00816830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE44E9392B9852FC00816830 /* CustumCVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumCVC1.swift; sourceTree = "<group>"; };
+		CE44E93A2B9852FC00816830 /* CustumCVC1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustumCVC1.xib; sourceTree = "<group>"; };
+		CE6DD0052B9EF15A00E325A0 /* DietCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietCVC.swift; sourceTree = "<group>"; };
+		CEA6B2BF2BA188F000D83483 /* allMeditationCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = allMeditationCVC.xib; sourceTree = "<group>"; };
+		CEA6B2C02BA188F000D83483 /* meditationCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = meditationCVC.xib; sourceTree = "<group>"; };
+		CEA6B2C32BA1891900D83483 /* meditationCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditationCVC.swift; sourceTree = "<group>"; };
+		CEA6B2C52BA1898300D83483 /* allMeditationCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allMeditationCVC.swift; sourceTree = "<group>"; };
+		CEB5BDBF2BA2DF4300484020 /* UpNextCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextCVC.swift; sourceTree = "<group>"; };
+		CEB5BDC02BA2DF4300484020 /* UpNextCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpNextCVC.xib; sourceTree = "<group>"; };
+		CEB5BDC32BA2EF9400484020 /* DietVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietVideoVC.swift; sourceTree = "<group>"; };
+		CEB5BDC52BA2F0B100484020 /* MediVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediVideoVC.swift; sourceTree = "<group>"; };
+		CEE892A32BA1B31100BF9EC5 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		CEEB29982B99A673009AC4B2 /* PopularYogaCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularYogaCVC.swift; sourceTree = "<group>"; };
+		CEEB29992B99A673009AC4B2 /* PopularYogaCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularYogaCVC.xib; sourceTree = "<group>"; };
+		CEEB299D2B99B8C1009AC4B2 /* RecommendedCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedCVC.swift; sourceTree = "<group>"; };
+		CEEB299E2B99B8C1009AC4B2 /* RecommendedCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendedCVC.xib; sourceTree = "<group>"; };
+		CEEB29A22B99C263009AC4B2 /* WeightLossCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLossCVC.swift; sourceTree = "<group>"; };
+		CEEB29A32B99C263009AC4B2 /* WeightLossCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeightLossCVC.xib; sourceTree = "<group>"; };
+		CEEB29A72B99C6EC009AC4B2 /* Meditation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Meditation.storyboard; sourceTree = "<group>"; };
+		CEEB29A92B99C702009AC4B2 /* MeditationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationVC.swift; sourceTree = "<group>"; };
+		CEEB29AC2B99C76B009AC4B2 /* Diet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Diet.storyboard; sourceTree = "<group>"; };
+		CEEB29AE2B99C77A009AC4B2 /* DietVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietVC.swift; sourceTree = "<group>"; };
+		CEEB29B12B99C7AF009AC4B2 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		CEEB29B32B99C7BA009AC4B2 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		CEECD8E92BA030630036CB38 /* AppleCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCVC.swift; sourceTree = "<group>"; };
+		CEECD8EA2BA030630036CB38 /* AppleCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppleCVC.xib; sourceTree = "<group>"; };
+		CEECD8ED2BA03EA60036CB38 /* DietCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DietCVC.xib; sourceTree = "<group>"; };
+		CEECD8EF2BA0581C0036CB38 /* allCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allCVC.swift; sourceTree = "<group>"; };
+		CEECD8F32BA058B60036CB38 /* allCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = allCVC.xib; sourceTree = "<group>"; };
+		E3017E4174CFE3C06903D54A /* Pods-YogaFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaFinal.release.xcconfig"; path = "Target Support Files/Pods-YogaFinal/Pods-YogaFinal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE44E91D2B9842E800816830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B3178C6745908F67C2C774 /* Pods_YogaFinal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B7B878B2D6B17E8D699564 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				366EC11C60F37000D69DF6C2 /* Pods-YogaFinal.debug.xcconfig */,
+				E3017E4174CFE3C06903D54A /* Pods-YogaFinal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE44E9172B9842E800816830 = {
+			isa = PBXGroup;
+			children = (
+				CE44E9222B9842E800816830 /* YogaFinal */,
+				CE44E9212B9842E800816830 /* Products */,
+				10B7B878B2D6B17E8D699564 /* Pods */,
+				D01C2DC4F5B90EBC947FBE33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE44E9212B9842E800816830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE44E9202B9842E800816830 /* YogaFinal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE44E9222B9842E800816830 /* YogaFinal */ = {
+			isa = PBXGroup;
+			children = (
+				20CF13412BB3279600E11E07 /* YogaFinal.xcdatamodeld */,
+				CE44E9372B98437C00816830 /* home Screen */,
+				CE44E9232B9842E800816830 /* AppDelegate.swift */,
+				CE44E9252B9842E800816830 /* SceneDelegate.swift */,
+				CE44E9272B9842E800816830 /* ViewController.swift */,
+				CE44E9292B9842E800816830 /* Main.storyboard */,
+				CE44E92C2B9842EA00816830 /* Assets.xcassets */,
+				CE44E92E2B9842EA00816830 /* LaunchScreen.storyboard */,
+				CE44E9312B9842EA00816830 /* Info.plist */,
+			);
+			path = YogaFinal;
+			sourceTree = "<group>";
+		};
+		CE44E9372B98437C00816830 /* home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CEE892A22BA1B2D700BF9EC5 /*  Sign In Up */,
+				CEEB29B02B99C793009AC4B2 /* Profile */,
+				CEEB29AB2B99C744009AC4B2 /* Diet */,
+				CEEB29A62B99C6AE009AC4B2 /* Meditation */,
+				CE44E9382B9852B000816830 /* Yoga */,
+			);
+			path = "home Screen";
+			sourceTree = "<group>";
+		};
+		CE44E9382B9852B000816830 /* Yoga */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB29A12B99C229009AC4B2 /* Yoga  For Weight Loss */,
+				CEEB299C2B99B89D009AC4B2 /* Recommend */,
+				CEEB29972B99A657009AC4B2 /* Popular Yoga */,
+				CE44E9392B9852FC00816830 /* CustumCVC1.swift */,
+				CE44E93A2B9852FC00816830 /* CustumCVC1.xib */,
+				CEB5BDBF2BA2DF4300484020 /* UpNextCVC.swift */,
+				CEB5BDC02BA2DF4300484020 /* UpNextCVC.xib */,
+				CE095CEC2BA2D14800EFC836 /* YogaVideoVC.swift */,
+			);
+			path = Yoga;
+			sourceTree = "<group>";
+		};
+		CEE892A22BA1B2D700BF9EC5 /*  Sign In Up */ = {
+			isa = PBXGroup;
+			children = (
+				CEE892A32BA1B31100BF9EC5 /* SignInVC.swift */,
+				72CF18A22BC667130047D7F2 /* SignUpVC.swift */,
+			);
+			path = " Sign In Up";
+			sourceTree = "<group>";
+		};
+		CEEB29972B99A657009AC4B2 /* Popular Yoga */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB29982B99A673009AC4B2 /* PopularYogaCVC.swift */,
+				CEEB29992B99A673009AC4B2 /* PopularYogaCVC.xib */,
+			);
+			path = "Popular Yoga";
+			sourceTree = "<group>";
+		};
+		CEEB299C2B99B89D009AC4B2 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB299D2B99B8C1009AC4B2 /* RecommendedCVC.swift */,
+				CEEB299E2B99B8C1009AC4B2 /* RecommendedCVC.xib */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		CEEB29A12B99C229009AC4B2 /* Yoga  For Weight Loss */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB29A22B99C263009AC4B2 /* WeightLossCVC.swift */,
+				CEEB29A32B99C263009AC4B2 /* WeightLossCVC.xib */,
+			);
+			path = "Yoga  For Weight Loss";
+			sourceTree = "<group>";
+		};
+		CEEB29A62B99C6AE009AC4B2 /* Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB29A72B99C6EC009AC4B2 /* Meditation.storyboard */,
+				CEEB29A92B99C702009AC4B2 /* MeditationVC.swift */,
+				CEA6B2C02BA188F000D83483 /* meditationCVC.xib */,
+				CEA6B2C32BA1891900D83483 /* meditationCVC.swift */,
+				CEA6B2BF2BA188F000D83483 /* allMeditationCVC.xib */,
+				CEA6B2C52BA1898300D83483 /* allMeditationCVC.swift */,
+				CEB5BDC52BA2F0B100484020 /* MediVideoVC.swift */,
+			);
+			path = Meditation;
+			sourceTree = "<group>";
+		};
+		CEEB29AB2B99C744009AC4B2 /* Diet */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB29AC2B99C76B009AC4B2 /* Diet.storyboard */,
+				CEEB29AE2B99C77A009AC4B2 /* DietVC.swift */,
+				CE6DD0052B9EF15A00E325A0 /* DietCVC.swift */,
+				CEECD8ED2BA03EA60036CB38 /* DietCVC.xib */,
+				CEECD8E92BA030630036CB38 /* AppleCVC.swift */,
+				CEECD8EA2BA030630036CB38 /* AppleCVC.xib */,
+				CEECD8EF2BA0581C0036CB38 /* allCVC.swift */,
+				CEECD8F32BA058B60036CB38 /* allCVC.xib */,
+				CEB5BDC32BA2EF9400484020 /* DietVideoVC.swift */,
+			);
+			path = Diet;
+			sourceTree = "<group>";
+		};
+		CEEB29B02B99C793009AC4B2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB29B12B99C7AF009AC4B2 /* ProfileVC.swift */,
+				CEEB29B32B99C7BA009AC4B2 /* Profile.storyboard */,
+				720083172BC675B3002BFE89 /* RecentlyCVC.swift */,
+				720083182BC675B3002BFE89 /* RecentlyCVC.xib */,
+				7200831B2BC67735002BFE89 /* SavedCVC.swift */,
+				7200831C2BC67735002BFE89 /* SavedCVC.xib */,
+				3F5CB5D52BCE75B8001684DB /* ProfileVideoVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D01C2DC4F5B90EBC947FBE33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F44551B258A684293DFB2A3 /* Pods_YogaFinal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE44E91F2B9842E800816830 /* YogaFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE44E9342B9842EA00816830 /* Build configuration list for PBXNativeTarget "YogaFinal" */;
+			buildPhases = (
+				0446B611BA2A87C328630D82 /* [CP] Check Pods Manifest.lock */,
+				CE44E91C2B9842E800816830 /* Sources */,
+				CE44E91D2B9842E800816830 /* Frameworks */,
+				CE44E91E2B9842E800816830 /* Resources */,
+				F2A779DEFCD5B6757FB03950 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YogaFinal;
+			productName = YogaFinal;
+			productReference = CE44E9202B9842E800816830 /* YogaFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE44E9182B9842E800816830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE44E91F2B9842E800816830 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CE44E91B2B9842E800816830 /* Build configuration list for PBXProject "YogaFinal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE44E9172B9842E800816830;
+			productRefGroup = CE44E9212B9842E800816830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE44E91F2B9842E800816830 /* YogaFinal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE44E91E2B9842E800816830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEB29A52B99C263009AC4B2 /* WeightLossCVC.xib in Resources */,
+				CE44E9302B9842EA00816830 /* LaunchScreen.storyboard in Resources */,
+				7200831A2BC675B3002BFE89 /* RecentlyCVC.xib in Resources */,
+				CEEB29B42B99C7BA009AC4B2 /* Profile.storyboard in Resources */,
+				CEECD8EC2BA030630036CB38 /* AppleCVC.xib in Resources */,
+				CEEB29A82B99C6EC009AC4B2 /* Meditation.storyboard in Resources */,
+				CE44E93C2B9852FC00816830 /* CustumCVC1.xib in Resources */,
+				CEECD8EE2BA03EA60036CB38 /* DietCVC.xib in Resources */,
+				CE44E92D2B9842EA00816830 /* Assets.xcassets in Resources */,
+				CEA6B2C12BA188F000D83483 /* allMeditationCVC.xib in Resources */,
+				CEECD8F42BA058B60036CB38 /* allCVC.xib in Resources */,
+				CE44E92B2B9842E800816830 /* Main.storyboard in Resources */,
+				7200831E2BC67735002BFE89 /* SavedCVC.xib in Resources */,
+				CEEB29A02B99B8C1009AC4B2 /* RecommendedCVC.xib in Resources */,
+				CEEB299B2B99A673009AC4B2 /* PopularYogaCVC.xib in Resources */,
+				CEEB29AD2B99C76B009AC4B2 /* Diet.storyboard in Resources */,
+				CEB5BDC22BA2DF4300484020 /* UpNextCVC.xib in Resources */,
+				CEA6B2C22BA188F000D83483 /* meditationCVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0446B611BA2A87C328630D82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YogaFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A779DEFCD5B6757FB03950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YogaFinal/Pods-YogaFinal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YogaFinal/Pods-YogaFinal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YogaFinal/Pods-YogaFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE44E91C2B9842E800816830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7200831D2BC67735002BFE89 /* SavedCVC.swift in Sources */,
+				CEB5BDC42BA2EF9400484020 /* DietVideoVC.swift in Sources */,
+				CEEB29B22B99C7AF009AC4B2 /* ProfileVC.swift in Sources */,
+				CEEB299F2B99B8C1009AC4B2 /* RecommendedCVC.swift in Sources */,
+				720083192BC675B3002BFE89 /* RecentlyCVC.swift in Sources */,
+				CE44E9282B9842E800816830 /* ViewController.swift in Sources */,
+				CE095CED2BA2D14800EFC836 /* YogaVideoVC.swift in Sources */,
+				CEEB29A42B99C263009AC4B2 /* WeightLossCVC.swift in Sources */,
+				CE44E93B2B9852FC00816830 /* CustumCVC1.swift in Sources */,
+				CEEB29AA2B99C702009AC4B2 /* MeditationVC.swift in Sources */,
+				3F5CB5D62BCE75B8001684DB /* ProfileVideoVC.swift in Sources */,
+				CEA6B2C62BA1898300D83483 /* allMeditationCVC.swift in Sources */,
+				CE6DD0072B9EF15A00E325A0 /* DietCVC.swift in Sources */,
+				CE44E9242B9842E800816830 /* AppDelegate.swift in Sources */,
+				CEB5BDC62BA2F0B100484020 /* MediVideoVC.swift in Sources */,
+				CEEB299A2B99A673009AC4B2 /* PopularYogaCVC.swift in Sources */,
+				CEE892A42BA1B31100BF9EC5 /* SignInVC.swift in Sources */,
+				72CF18A32BC667130047D7F2 /* SignUpVC.swift in Sources */,
+				CE44E9262B9842E800816830 /* SceneDelegate.swift in Sources */,
+				CEA6B2C42BA1891900D83483 /* meditationCVC.swift in Sources */,
+				CEB5BDC12BA2DF4300484020 /* UpNextCVC.swift in Sources */,
+				CEECD8F12BA0581C0036CB38 /* allCVC.swift in Sources */,
+				CEEB29AF2B99C77A009AC4B2 /* DietVC.swift in Sources */,
+				CEECD8EB2BA030630036CB38 /* AppleCVC.swift in Sources */,
+				20CF13432BB3279600E11E07 /* YogaFinal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE44E9292B9842E800816830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE44E92A2B9842E800816830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE44E92E2B9842EA00816830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE44E92F2B9842EA00816830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE44E9322B9842EA00816830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE44E9332B9842EA00816830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE44E9352B9842EA00816830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366EC11C60F37000D69DF6C2 /* Pods-YogaFinal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaFinal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.YogaFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE44E9362B9842EA00816830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3017E4174CFE3C06903D54A /* Pods-YogaFinal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaFinal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.YogaFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE44E91B2B9842E800816830 /* Build configuration list for PBXProject "YogaFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE44E9322B9842EA00816830 /* Debug */,
+				CE44E9332B9842EA00816830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE44E9342B9842EA00816830 /* Build configuration list for PBXNativeTarget "YogaFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE44E9352B9842EA00816830 /* Debug */,
+				CE44E9362B9842EA00816830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20CF13412BB3279600E11E07 /* YogaFinal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20CF13422BB3279600E11E07 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 20CF13422BB3279600E11E07 /* CoreData.xcdatamodel */;
+			path = YogaFinal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE44E9182B9842E800816830 /* Project object */;
+}
